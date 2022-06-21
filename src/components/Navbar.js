@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
-    <Link className="navbar-brand" to="/">DressWell</Link>
+    <Link className="navbar-brand" to="/">Dress<b style = {{color:'#5a9078'}}>wel</b></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -29,9 +29,9 @@ const Navbar = () => {
           </Link>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><Link className="dropdown-item" to="/AddToCart">Cart</Link></li>
-            <li><Link className="dropdown-item" to="/WishList">Liked</Link></li>
+            <li><Link className="dropdown-item" to="/WishList">WishList</Link></li>
             <li><hr className="dropdown-divider"/></li>
-            <li><Link className="dropdown-item" to="/Login">Logout</Link></li>
+            <li><Link className="dropdown-item" to="/Login">login</Link></li>
           </ul>
         </li>
       </ul>

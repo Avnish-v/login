@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Shop from "./components/Shop";
 import AddToCart from "./components/AddToCart";
 import WishList from "./components/WishList";
+import Login from "./components/Login";
 import {
   BrowserRouter as Router,
   Routes,
@@ -18,6 +19,8 @@ function App() {
     <Navbar/>
     <Routes>
     <Route exact path="/" element={<Shop  key="items"  link="items" />}/>
+    <Route exact path="/login" element={<Login/>}/>
+
       <Route exact path="/Mens" element={<Shop  key="mens"  link="men"/>}/>
       <Route exact path="/Womens"  element={<Shop  key="womens" link="women"/>}/>
       <Route exact path="/Unisex"  element={<Shop  key="Unisex" link="unisex"/>}/>
